@@ -21,7 +21,8 @@ This Weather Application is a web-based tool that provides real-time weather inf
 - Styling: CSS
 
 ---
-## 📂 Project Structure
+
+## Project Structure
 
 ```text
 src/
@@ -53,22 +54,20 @@ src/
 
 ---
 
-## Application Snapshots
+## Screenshots
 
-### Search Home
+### Weather Search
 
-![Search Home](./screenshots/weather-home.png)
+![Weather Home Screenshot](./screenshots/weather-home.png)
 
 ---
 
-### Forecast View
+###  Forecast View
 
-![Forecast](./screenshots/forecast.png)
+![Forecast Screenshot](./screenshots/forecast.png)
 
 ---
 
 ### Mobile Responsive
 
-![Mobile Responsive](./screenshots/weather-responsive.png)
-
-
+![Mobile Responsive Screenshot](./screenshots/weather-responsive.png)
