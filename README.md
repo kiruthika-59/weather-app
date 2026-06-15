@@ -53,3 +53,19 @@ src/
 └── app.css
 
 ---
+
+# Screenshot
+
+## Search Result
+
+<img width="1875" height="980" alt="weather-home" src="https://github.com/user-attachments/assets/4e8d498a-8410-4e81-88be-4f194b22e53a" />
+
+## Forecast 
+
+<img width="1258" height="895" alt="forecast" src="https://github.com/user-attachments/assets/12ff665e-057f-4f85-b270-f67e0ffd1dd7" />
+
+## Mobile View
+
+<img width="1443" height="892" alt="weather-responsive" src="https://github.com/user-attachments/assets/ad808d88-ce82-4cfb-9277-52be66a1ef0e" />
+
+
