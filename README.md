@@ -21,21 +21,23 @@ This Weather Application is a web-based tool that provides real-time weather inf
 - Styling: CSS
 
 ---
+## 📂 Project Structure
 
-## Project Structure
+```text
 src/
 ├── lib/
 │   ├── api/
 │   │   └── weather.ts
 │   │
 │   ├── assets/
-│   │   └── favicon.svg
+│   │   ├── favicon.svg
 │   │
 │   ├── components/
-│   │   ├── HourForecast.svelte
 │   │   ├── SearchBar.svelte
-│   │   ├── ThemeToggle.svelte
-│   │   └── WeeklyForecast.svelte
+│   │   ├── WeatherCard.svelte
+│   │   ├── HourForecast.svelte
+│   │   ├── WeeklyForecast.svelte
+│   │   └── ThemeToggle.svelte
 │   │
 │   ├── types/
 │   │   └── weather.ts
@@ -43,19 +45,30 @@ src/
 │   └── utils/
 │       └── weather.ts
 │
-└── routes/
-    ├── +layout.svelte
-    └── +page.svelte
+├── routes/
+│   ├── +page.svelte
+│   └── +layout.svelte
+│
+└── app.css
 
+---
 
 ## Application Snapshots
 
-| Feature | Preview |
-|--------|--------|
-| Search Home | ![Search](./screenshots/weather-home.png) |
-| Forecast | ![Forecast](./screenshots/forecast.png) |
-| Mobile Responsive | ![Mobile](./screenshots/weather-responsive.png) |
+### Search Home
 
+![Search Home](./screenshots/weather-home.png)
 
+---
+
+### Forecast View
+
+![Forecast](./screenshots/forecast.png)
+
+---
+
+### Mobile Responsive
+
+![Mobile Responsive](./screenshots/weather-responsive.png)
 
 
