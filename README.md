@@ -1,42 +1,65 @@
-# sv
+# Weather Application
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Project Overview
+This Weather Application is a web-based tool that provides real-time weather information for any selected city. It fetches live data from a weather API and displays key meteorological details in a clean and responsive user interface.
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
+- Search weather information by city name
+- Display current temperature in Celsius
+- Show humidity and wind speed
+- Provide weather condition descriptions (e.g., clear, cloudy, rain)
+- Responsive design for different screen sizes
 
-```sh
-# create a new project
-npx sv create my-app
-```
+---
 
-To recreate this project with the same configuration:
+## Technology Stack
+- Frontend: Svelte / SvelteKit
+- Language: JavaScript / TypeScript
+- API Integration: OpenWeatherMap API
+- Styling: CSS
 
-```sh
-# recreate this project
-npx sv@0.15.3 create --template minimal --types ts --install npm weather-app
-```
+---
 
-## Developing
+## Project Structure
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+src
+├── lib
+│ ├── api
+│ │   └── weather.ts
+│ │
+│ ├── assets
+│ │   └── favicon.svg
+│ │
+│ ├── components
+│ │   ├── HourForecast.svelte
+│ │   ├── SearchBar.svelte
+│ │   ├── ThemeToggle.svelte
+│ │   └── WeeklyForecast.svelte
+│ │
+│ ├── types
+│ │   └── weather.ts
+│ │
+│ └── utils
+│     └── weather.ts
+│
+└── routes
+    ├── +layout.svelte
+    └── +page.svelte
 
-```sh
-npm run dev
+## Snapshot
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Search Result
+![Search](./screenshots/weather-home.png)
 
-## Building
+### Forecast View
+![Forecast](./screenshots/forecast.png)
 
-To create a production version of your app:
+### Responsive view
 
-```sh
-npm run build
-```
+![Mobile-View](./screenshots/weather-responsive.png)
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+
