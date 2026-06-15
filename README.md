@@ -51,7 +51,7 @@ src/
 │   └── +layout.svelte
 │
 └── app.css
-
+```
 ---
 
 # Screenshot
