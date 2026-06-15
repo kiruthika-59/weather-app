@@ -53,21 +53,3 @@ src/
 └── app.css
 
 ---
-
-## Screenshots
-
-### Weather Search
-
-![Weather Home Screenshot](./screenshots/weather-home.png)
-
----
-
-###  Forecast View
-
-![Forecast Screenshot](./screenshots/forecast.png)
-
----
-
-### Mobile Responsive
-
-![Mobile Responsive Screenshot](./screenshots/weather-responsive.png)
